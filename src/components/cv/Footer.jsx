@@ -1,0 +1,21 @@
+export default function Footer() {
+  const rokAktualizacji = '2026';
+
+  return (
+    <div className="bg-bg-secondary border-t border-border p-5 text-center animate-slide-in-up">
+      <div className="font-jetbrains text-xs text-text-secondary">
+        <span className="text-accent-green">const</span> lastUpdated ={' '}
+        <span className="text-accent-orange">"{rokAktualizacji}"</span>;
+      </div>
+      <p className="mt-4 text-[10px] text-text-secondary/60 leading-relaxed max-w-3xl mx-auto">
+        Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb
+        niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10
+        maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000)
+        oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE)
+        2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w
+        związku z przetwarzaniem danych osobowych i w sprawie swobodnego
+        przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+      </p>
+    </div>
+  );
+}
